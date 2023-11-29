@@ -22,4 +22,4 @@ print (type(name))
 
 #typecasting is used to convert the one data type  to another.
 age =int (input("Ënter you age:-"))
-print(f"your age is:- {age}")
+print(f"your age is: {age}")
