@@ -12,7 +12,7 @@ print("The exponential of these two number is: ",n1**n2)
 print("The floor division of these two number is: ",n1//n2)
 
 #Assignment operator
-i=5
+i=6
 j=10
 print(" ",i,j)
 j*=i
