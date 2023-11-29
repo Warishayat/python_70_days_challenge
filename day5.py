@@ -28,7 +28,7 @@ else:
 
 #identity operator  (is) operator if all the variable are same.
 c=5
-y=5
+y=6
 print("x is y", c is y)
 print("x is y", c is not y)
 
