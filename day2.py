@@ -35,4 +35,4 @@ print("My string value has been changed "+n + " abbasi")             #we can cnh
 print("My integer value also has been changed",i+ 30)
 print("My float value also has been changed",j+ 30.5)
 #seprator
-print(n, i, j, is_student, sep="-->") 
+print(n, i, j, is_student, sep="->") 
