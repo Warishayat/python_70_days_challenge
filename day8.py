@@ -15,3 +15,4 @@ elif english_marks>=80 or science_marks>=80:
 #if non of marls are more then 80:
 else:
     print("Congrats Riya you get the grade (C))")
+
