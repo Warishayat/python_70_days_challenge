@@ -40,7 +40,7 @@ print(5 in list)    #it should be false because 5 never exist in list
 #bitwise opreator like 0 and 1 is bit and its called binary number system.
 
 a=10
-b=22
+b=23
 print("A and B is:",a & b)
 print("A not B is:",a | b)
 print("A xor B is:",a ^ b)
