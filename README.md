@@ -36,4 +36,12 @@ Question: Write a program that take the total purchase amount as input and outpu
 we have two type of loop for loop and while loop. FOR is a pre built key Then we initialized a variable then in range mean what will be range of n start to end 
 e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9.
 <br>
-
+---->13/70 i  cover the for loop with some pattren 
+<br>
+---->14/70 i cover the break and continue statments.
+<br>
+---->15/70 i cover the basic of function how to make function and how i can pass value through arguments etc.
+<br>
+---->16/70 we cover the basic of functions how to make function call function and pass the value through function.
+<br>
+----->17/70 we cover the diffrent tyoes of function like positional arguments default arguments and variable length.
