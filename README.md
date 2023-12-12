@@ -42,6 +42,11 @@ e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9
 <br>
 ---->15/70 i cover the basic of function how to make function and how i can pass value through arguments etc.
 <br>
----->16/70 we cover the basic of functions how to make function call function and pass the value through function.
+---->16/70 we cover the basic of functions arguments like positional arguments,default arguments and variable length arguments.
 <br>
------>17/70 we cover the diffrent tyoes of function like positional arguments default arguments and variable length.
+----->17/70 we cover the basisc of the list like what is list how to concate list and some more basic things.
+<br>
+----->18/70 we cover the methods of the list and solve some example.
+<br>
+----->19/70 we cover the concept of tuple which is unmuteable and all things
+<br>
