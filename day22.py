@@ -2,17 +2,17 @@
 
 
 
-# def avg(a,b):
-#     '''here our code will sum of the number and return the avg 
-#     to the main.
-#     this is the simplest way of doc string.its just like comment but comment is 
-#     dffrent comment cannot change ourr code imoact but it can change'''
+def avg(a,b):
+    '''here our code will sum of the number and return the avg 
+    to the main.
+    this is the simplest way of doc string.its just like comment but comment is 
+    dffrent comment cannot change ourr code imoact but it can change'''
     
-#     return a+b/2
+    return a+b/2
 
-# n=avg(12,13)
-# print("The avg is:",n)
-# print(avg.__doc__)
+n=avg(12,13)
+print("The avg is:",n)
+print(avg.__doc__)
 
 
 
