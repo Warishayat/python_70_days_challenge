@@ -23,15 +23,14 @@ for i in range(1,8):
         print(n,end =" ")
     print()
 
-#solve the new question
 
-n=int(input("Enter the N:"))
 
-for i in range(1,n):   # fo rowse
-    print(" " * (n-i), end=" ")  #for space
-    for n in range (1,2*i):
-            print(n,end=" ")
-    print()
+
+
+
+
+
+
 
 
 
