@@ -1,9 +1,13 @@
 #in day 15 i will cover the function.its used for code sepration.
-def average(a=10,b=20):
+def average(a,b):
 
     p=(a+b)/2
     print("The average is=",p)
 print()
+print()
+####################
+print()
+
 
 def sum(a,b):
     print("The sum of two values are=",a+b)
