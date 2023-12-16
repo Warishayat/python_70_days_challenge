@@ -1,6 +1,6 @@
 # list
 #order will be stay maintain.values eprated by comas and open&close by brackets.
-#list index work like strings 
+#list index work like strings.
 l=[3,5,6,6,7,8,9]
 print(len(l))
 print(len(l))
