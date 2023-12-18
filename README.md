@@ -50,3 +50,14 @@ e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9
 <br>
 ----->19/70 we cover the concept of tuple which is unmuteable and all things
 <br>
+----->20/70 i cover the list and theoer methods things
+<br>
+----->21/70 i cover the formatting string concept
+<br>
+----->22/70  we cover the doc_string
+<br>
+----->23/70  we cover the sets and their methods
+<br>
+----->24/70  we cover thge dictionary ad their methods
+<br>
+----->25/70  we cover the error handling in python like value error exception etc...
