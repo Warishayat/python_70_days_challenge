@@ -61,3 +61,7 @@ e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9
 ----->24/70  we cover thge dictionary ad their methods
 <br>
 ----->25/70  we cover the error handling in python like value error exception etc...
+<br>
+----->26/70  we cover the shorthand if else and we solve a simple basic question which is  mentioned in 26/70 slide /file
+<br>
+----->26/70 we cover the final keyword why we use that and we solve a question for final keyword which is mentioned in file..
