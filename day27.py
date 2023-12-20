@@ -31,3 +31,17 @@ def fun():
 result=fun()
 print("The value of result is",result)
 
+
+# Write a Python program that reads a text file named "sample.txt" and prints the number of 
+# lines in the file. If the file is not found, handle the exception and print an appropriate error message.
+
+# Feel free to attempt these questions, and if you have any specific doubts or need help with solutions, feel free to ask!
+try:
+    with open("read.txt") as f:
+    
+        showoutput=f.readline()
+        print(showoutput)
+except FileNotFoundError:
+       print("Your file is not in dbms system")
+finally:
+       print ("Everything is on track right now")
