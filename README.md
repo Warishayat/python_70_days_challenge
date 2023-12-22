@@ -66,4 +66,6 @@ e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9
 <br>
 ----->27/70 we cover the final keyword why we use that and we solve a question for final keyword which is mentioned in file..
 <br>
------>28/70 we cover the short hand if else and we solve some example of shorthand if else example
+----->28/70 we cover the short hand if else and we solve some example of shorthand if else example.
+<br>
+----->29/70 we cover the enumerate method how we can take index as well as with our value.
