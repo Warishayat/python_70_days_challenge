@@ -72,3 +72,4 @@ e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9
 <br>
 ----->30/70 we cover the module in python like how to import module and how module work and i solve some question of modules.
 <br>
+----->31/70 we cover the __name__=="__main__" like the python script is being executed/run directly or its being imported into some module and run fromthat module.
