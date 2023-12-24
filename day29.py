@@ -20,7 +20,7 @@ strng ="apple,mango"
 for index,fruit in enumerate(strng):
     print(index,fruit)
 
-#practise example
+
 
 
 # Question: Create an enumeration named Days with the 
