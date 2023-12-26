@@ -1,77 +1,79 @@
-# python_70_days_challenge
-In these 75 days python programming challenge I will start cover all the basic and advance level concepts. we also try to solve basic problems.
-<br>
------>Day 1/70  first day of challenge i simply setup my vs code and i print a simple code print(hello world) which is quite basic.
-<br>
------>Day 2/70 i cover the basic variable each and every thing related to thevariable.
-<br>
------>Day 3/70 i cover the diffrent data types like ascii int value float value string value,mapping,sequence,data set and numeric data types.
-<br>
------>Day 4/70 i cover the basic of operaotrs there are diffrent type o opreator
-like addition (+),subtraction(-),multiplication(*),division(/),modulus(%),exponential (**) and floor division(//). and solve some basic example.
-<br>
------>Day 5/70 i cover the logical operator like and or and not operator then i go in deep like identity operator (is and is not ) operator if all the variable are same and vice versa.than i cover the membership operator  (in operator and not in) return true if the value is present is sequence and vice versa for not in than i cover bitwise opreator like 0 and 1 is bit and its called binary number system.i cover (&, |,  and xor ) in bitwise after that i simply take the concept of opreator precedence if there are many operator which will precede first we will follow 
-BODMAS Rule (Bracket open than division,than multipication,than addition and than subtraction).
-<br>
------>Day 6/70 of challenge and today i will try to cover the loops and control statments
-More over i will also try to solve the question of conditions and loops and i wil  try to push all these thing to github for the other people and student as well.
-i try  the concept of conditional statments like if, else if ,nested,ternary ,else if ladder, and  switch.i take the disicion on the basis of the control statments
-<br>
------>Day 7/70 i will cover the Elif contol statment.and  i solve the problem.
-<br>
------>Day 8/70 challenge and i will cover the multiple condition using logical operator like AND or "or" OERATOR.Logical operator help us to combining the elemnt of two elements. and i will solve the problem.
-<br>
------>Day 9/70 --> Nested if else: for complex disicon making:a statment with in statment
-Question: Write a program that take the total purchase amount as input and output the corresponding discount percentage:
-#100$ ----> 20% discount
-#55 to 99$ ------>10%
-#below------>No discoun
-#dO Same code which i laready had done in python day 8. now do it wirth nested if else>
-<br>
------>Day 10/70 challenge we cover the match case. 
-<br>
------>Day 11/70 we cover the ternary operaot. is sum the code with in a line.
-<br>
------>Day 12/70 i will cover the loop>
-we have two type of loop for loop and while loop. FOR is a pre built key Then we initialized a variable then in range mean what will be range of n start to end 
-e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9.
-<br>
----->13/70 i  cover the for loop with some pattren 
-<br>
----->14/70 i cover the break and continue statments.
-<br>
----->15/70 i cover the basic of function how to make function and how i can pass value through arguments etc.
-<br>
----->16/70 we cover the basic of functions arguments like positional arguments,default arguments and variable length arguments.
-<br>
------>17/70 we cover the basisc of the list like what is list how to concate list and some more basic things.
-<br>
------>18/70 we cover the methods of the list and solve some example.
-<br>
------>19/70 we cover the concept of tuple which is unmuteable and all things
-<br>
------>20/70 i cover the list and theoer methods things
-<br>
------>21/70 i cover the formatting string concept
-<br>
------>22/70  we cover the doc_string
-<br>
------>23/70  we cover the sets and their methods
-<br>
------>24/70  we cover thge dictionary ad their methods
-<br>
------>25/70  we cover the error handling in python like value error exception etc...
-<br>
------>26/70  we cover the shorthand for with else and we solve a simple basic question which is  mentioned in 26/70 slide /file
-<br>
------>27/70 we cover the final keyword why we use that and we solve a question for final keyword which is mentioned in file..
-<br>
------>28/70 we cover the short hand if else and we solve some example of shorthand if else example.
-<br>
------>29/70 we cover the enumerate method how we can take index as well as with our value.
-<br>
------>30/70 we cover the module in python like how to import module and how module work and i solve some question of modules.
-<br>
------>31/70 we cover the __name__=="__main__" like the python script is being executed/run directly or its being imported into some module and run fromthat module.
-<br>
------>32/70 we cover OS module.
+Python 70-Day Challenge
+Welcome to my Python 70-Day Challenge repository! 🚀 In this journey, I am committed to covering both fundamental and advanced Python concepts while tackling various problem-solving exercises.
+
+Daily Progress:
+Day 1/70:
+Set up VS Code and printed a basic "Hello, World!" message.
+Day 2/70:
+Explored basic variable concepts.
+Day 3/70:
+Covered different data types: ASCII, int, float, string, mapping, sequence, data set, and numeric data types.
+Day 4/70:
+Explored basic operators: +, -, *, /, %, **, and //.
+Solved basic examples.
+Day 5/70:
+Covered logical operators: and, or, and not.
+Explored identity operators (is and is not) and membership operators (in and not in).
+Introduced bitwise operators: &, |, and xor.
+Discussed operator precedence using BODMAS rule.
+Day 6/70:
+Explored loops and control statements.
+Covered conditional statements: if, elif, else if ladder, nested if, ternary, else, and switch.
+Day 7/70:
+Covered the elif control statement.
+Day 8/70:
+Explored multiple conditions using logical operators (AND and OR).
+Solved problems related to multiple conditions.
+Day 9/70:
+Introduced nested if-else statements.
+Solved a discount calculation problem using nested if-else.
+Day 10/70:
+Covered the match case.
+Day 11/70:
+Explored the ternary operator for concise coding.
+Day 12/70:
+Covered two types of loops: for loop and while loop.
+Explored the usage of the for loop with patterns.
+Day 13/70:
+Worked on for loop patterns.
+Day 14/70:
+Covered break and continue statements in loops.
+Day 15/70:
+Explored the basics of functions, including function creation and passing arguments.
+Day 16/70:
+Covered function arguments: positional arguments, default arguments, and variable-length arguments.
+Day 17/70:
+Explored the basics of lists, including concatenation.
+Day 18/70:
+Covered list methods and solved related problems.
+Day 19/70:
+Explored the concept of tuples (immutable lists).
+Day 20/70:
+Continued exploring lists and other related concepts.
+Day 21/70:
+Covered string formatting concepts.
+Day 22/70:
+Explored docstrings.
+Day 23/70:
+Covered sets and their methods.
+Day 24/70:
+Explored dictionaries and their methods.
+Day 25/70:
+Covered error handling in Python, including value error exceptions.
+Day 26/70:
+Covered the shorthand for with else.
+Solved a problem related to the shorthand if-else.
+Day 27/70:
+Covered the 'final' keyword and solved a related problem.
+Day 28/70:
+Covered the shorthand if-else and solved examples.
+Day 29/70:
+Covered the 'enumerate' method.
+Day 30/70:
+Explored modules in Python, importation, and solved module-related problems.
+Day 31/70:
+Covered the __name__=="__main__" concept.
+Day 32/70:
+Explored the OS module.
+Day 33/70:
+Solved an exercise.
