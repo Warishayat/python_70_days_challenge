@@ -12,7 +12,7 @@ for i in fruit:
 
 
 # Create a list of even numbers from 1 to 10..
-
+#list comprehension
 l=[l for l in range(1,10) if l%2==0]
 print(l)
 
