@@ -77,3 +77,5 @@ Day 32/70:
 Explored the OS module.
 Day 33/70:
 Solved an exercise.
+Day 34/70:
+Global and local variable.
