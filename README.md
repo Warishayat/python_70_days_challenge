@@ -79,3 +79,5 @@ Day 33/70:
 Solved an exercise.
 Day 34/70:
 Global and local variable.
+Day 35,36/70:
+File handling readline and readlines etc with example.
