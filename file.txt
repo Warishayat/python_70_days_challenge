@@ -1,0 +1,9 @@
+Line 1: Hello, World!
+Line 2: Python is great.
+Line 3: File handling example.
+NameAgeDepartmentSalaryJohn30HR
+50000Alice25IT
+60000Bob35Finance
+55000Eva,28Marketing
+48000Charlie32IT
+52000
