@@ -2,7 +2,7 @@
 
 with open ("myfile.txt",'r') as f:
     
-    result=f.seek(3) #move the 10 byte forward.
+    result=f.seek(10) #move the 10 byte forward.
 
     print(f.tell())    #it tell us about where we are
     result1=f.read(10)
