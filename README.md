@@ -158,3 +158,7 @@ Global and local variable.
 Day 35,36/70:
 <br>
 File handling readline and readlines etc with example.
+<br>
+Day 37/70:
+<br>
+lambda function and solve exercise
