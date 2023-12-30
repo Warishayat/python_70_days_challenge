@@ -162,3 +162,7 @@ File handling readline and readlines etc with example.
 Day 37/70:
 <br>
 lambda function and solve exercise
+<br>
+Day 38/70:
+<br>
+map() reduce() and filter() solve..
