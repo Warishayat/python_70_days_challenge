@@ -166,3 +166,7 @@ lambda function and solve exercise
 Day 38/70:
 <br>
 map() reduce() and filter() solve..
+<br>
+Day 38/70:
+<br>
+solve is vs == in python
