@@ -171,6 +171,10 @@ Day 39/70:
 <br>
 solve is vs == in python
 <br>
-Day 39/70:
+Day 40/70:
 <br>
 snake water gun game
+<br>
+Day 41/70:
+<br>
+Oop start and take the basic concept of the class
