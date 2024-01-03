@@ -178,3 +178,7 @@ snake water gun game
 Day 41/70:
 <br>
 Oop start and take the basic concept of the class
+<br>
+Day 42/70:
+<br>
+Constructor and thier type like defualt and parameterized constructor,self keyword.
