@@ -182,3 +182,7 @@ Oop start and take the basic concept of the class
 Day 42/70:
 <br>
 Constructor and thier type like defualt and parameterized constructor,self keyword.
+<br>
+Day 43/70:
+<br>
+solve the decorator function that take a function then extend the functionality of that func.
