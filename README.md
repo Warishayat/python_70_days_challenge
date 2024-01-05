@@ -186,3 +186,7 @@ Constructor and thier type like defualt and parameterized constructor,self keywo
 Day 43/70:
 <br>
 solve the decorator function that take a function then extend the functionality of that func.
+<br>
+Day 44/70:
+<br>
+solve the exercise of getter and setter in object oriented program..
