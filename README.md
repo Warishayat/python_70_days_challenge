@@ -190,3 +190,7 @@ solve the decorator function that take a function then extend the functionality 
 Day 44/70:
 <br>
 solve the exercise of getter and setter in object oriented program..
+<br>
+Day 45/70:
+<br>
+solve the inheritance concept how to inherit class function and constructor and solve example
