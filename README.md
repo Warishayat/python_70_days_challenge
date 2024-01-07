@@ -194,3 +194,7 @@ solve the exercise of getter and setter in object oriented program..
 Day 45/70:
 <br>
 solve the inheritance concept how to inherit class function and constructor and solve example
+<br>
+Day 46/70:
+<br>
+solve the public private and protetcted specifiers in python
