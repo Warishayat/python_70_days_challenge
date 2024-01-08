@@ -198,3 +198,7 @@ solve the inheritance concept how to inherit class function and constructor and 
 Day 46/70:
 <br>
 solve the public private and protetcted specifiers in python
+<br>
+Day 47/70:
+<br>
+solve the library Managment exercise.
