@@ -199,6 +199,6 @@ Day 46/70:
 <br>
 solve the public private and protetcted specifiers in python
 <br>
-Day 47/70:
+Day 48/70:
 <br>
-solve the library Managment exercise.
+solve the instance method and some example.
