@@ -201,4 +201,4 @@ solve the public private and protetcted specifiers in python
 <br>
 Day 48/70:
 <br>
-solve the instance method and some example.
+solve the static method and some example.
