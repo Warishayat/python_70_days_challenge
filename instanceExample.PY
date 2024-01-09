@@ -32,9 +32,8 @@ class person:
     @classmethod
     def create_person(cls,str):
         return cls(str.split(",")[0],str.split(",")[1],str.split(",")[2])
-    @staticmethod
     def display_info(self):
-        print(f "The name is {self.name} and age is {self.age} and location is {self.location}")
+        print(f"The name is {self.name} and age is {self.age} and location is {self.location}")
 
 str="Waris_Hayat,22,islamabad_pakistan"
 a=person.create_person(str)
