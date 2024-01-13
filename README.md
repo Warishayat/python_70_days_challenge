@@ -199,6 +199,33 @@ Day 46/70:
 <br>
 solve the public private and protetcted specifiers in python
 <br>
-Day 48/70:
+Day 47/70:
 <br>
 solve the static method and some example.
+<br>
+Day 48/70:
+<br>
+solve the Exercise.
+<br>
+Day 49/70:
+<br>
+solve the class and instance varaiable.
+<br>
+Day 50/70:
+<br>
+solve the class method to change the class variables.
+<br>
+Day 51/70:
+<br>
+Cover the alternate constructor.
+<br>
+Day 52/70:
+<br>
+cover dir __dict() and help keywords.
+<br>
+Day 53/70:
+<br>
+cover super() and their usage.
+<br>
+
+
