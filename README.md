@@ -227,5 +227,9 @@ Day 53/70:
 <br>
 cover super() and their usage.
 <br>
-
+<br>
+Day 54/70:
+<br>
+cover Dunder Method/Magical Method.
+<br>
 
