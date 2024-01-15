@@ -232,4 +232,8 @@ Day 54/70:
 <br>
 cover Dunder Method/Magical Method.
 <br>
+Day 55/70:
+<br>
+cover Method  Overriding with diffrent example.
+<br>
 
