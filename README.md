@@ -240,4 +240,8 @@ Day 56/70:
 <br>
 cover the method overloading with example.
 <br>
+Day 57/70:
+<br>
+Inheritance and their type.
+<br>
 
