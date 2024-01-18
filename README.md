@@ -244,4 +244,8 @@ Day 57/70:
 <br>
 Inheritance and their type.
 <br>
+Day 58/70:
+<br>
+walrus objects  and paractise quesrtion.
+<br>
 
