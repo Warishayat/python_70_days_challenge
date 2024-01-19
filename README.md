@@ -246,6 +246,11 @@ Inheritance and their type.
 <br>
 Day 58/70:
 <br>
-walrus objects  and paractise quesrtion.
+walrus objects  and paractise question.
 <br>
+Day 59/70:
+<br>
+genrator and paractise question.
+<br>
+
 
