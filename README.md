@@ -252,5 +252,10 @@ Day 59/70:
 <br>
 genrator and paractise question.
 <br>
+Day 60/70:
+<br>
+Garbage collector in python.
+<br>
+
 
 
