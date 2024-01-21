@@ -256,6 +256,10 @@ Day 60/70:
 <br>
 Garbage collector in python.
 <br>
+Day 61/70:
+<br>
+Multi-Threading in python with example.
+<br>
 
 
 
