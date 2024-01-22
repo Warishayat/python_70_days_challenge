@@ -260,6 +260,14 @@ Day 61/70:
 <br>
 Multi-Threading in python with example.
 <br>
-
+<br>
+Day 61/70:
+<br>
+Multi-Threading in python with example.
+<br>
+Day 62/70:
+<br>
+Multi-processing in python with example.
+<br>
 
 
