@@ -269,5 +269,9 @@ Day 62/70:
 <br>
 Multi-processing in python with example.
 <br>
+Day 63/70:
+<br>
+Rivision till day 20.
+<br>
 
 
