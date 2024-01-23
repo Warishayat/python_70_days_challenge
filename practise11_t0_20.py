@@ -1,20 +1,20 @@
 #Topic today i will cover:
 
 #ternery opereator
-# num=int(input("Enter the Number."))
-# result ="even" if num %2==0 else "odd"
-# print(result)
+num=int(input("Enter the Number."))
+result ="even" if num %2==0 else "odd"
+print(result)
 
 #2 check the given number is negative or positive.
-# num=int(input("Enter number:"))
-# number='positive' if num>0 else "negative"
-# print("The number is:",number)
+num=int(input("Enter number:"))
+number='positive' if num>0 else "negative"
+print("The number is:",number)
 
 #3 check two num which is maximum
-# num1=int(input("Enter the num1:"))
-# num2=int(input("Enter the num2:"))
-# result="Num1 is maximum" if num1>num2 else "Num2 is maximum"
-# print(result)
+num1=int(input("Enter the num1:"))
+num2=int(input("Enter the num2:"))
+result="Num1 is maximum" if num1>num2 else "Num2 is maximum"
+print(result)
 
 ###loops
 
@@ -35,24 +35,24 @@ for i in name:
     print(i,end=" ")
 
 
-# #iterate the loop on the list
-# print()
-# student=[1,2,"waris",4,8,64,3,2]
-# for i in student:
-#     print(i,end=" ")
+#iterate the loop on the list
+print()
+student=[1,2,"waris",4,8,64,3,2]
+for i in student:
+    print(i,end=" ")
 
-# #Question : print the even number between initialized and end point?
-# print()
-# initial=int(input("Enter the first point:"))
-# final=int(input("Enter the final point:"))
+#Question : print the even number between initialized and end point?
+print()
+initial=int(input("Enter the first point:"))
+final=int(input("Enter the final point:"))
 
-# i=initial
-# while(i<final):
-#     if i%2==0:
-#         print(i,end=" ")
-#     else:
-#         pass
-#     i+=1
+i=initial
+while(i<final):
+    if i%2==0:
+        print(i,end=" ")
+    else:
+        pass
+    i+=1
     
 #break and continue statments:
 
@@ -73,22 +73,22 @@ for i in name:
         
 #3 list=[10,12,13,14,15,16,17] find 17 then skip
 print()
-# list=[10,12,13,14,15,16,17]     
-# for i in list:
-#     if i==17:
-#         continue
-#     else:
-#         print(i,end=" ")
+list=[10,12,13,14,15,16,17]     
+for i in list:
+    if i==17:
+        continue
+    else:
+        print(i,end=" ")
 
         
 #3 list=[10,12,13,14,15,16,17] find 13 then break
-# print()
-# list=[10,12,13,14,15,16,17]     
-# for i in list:
-#     if i==13:
-#         break
-#     else:
-#         print(i,end=" ")
+print()
+list=[10,12,13,14,15,16,17]     
+for i in list:
+    if i==13:
+        break
+    else:
+        print(i,end=" ")
 
 #2 when you got b then break loop
 print()
@@ -164,62 +164,62 @@ def studentDetail(**detail):
 studentDetail(name="Waris",Midname="Hayat",Lastname="Abbasi")
 
 
-# #list
-# list=[12,13,14,15,16,17,18,19,20,12]
-# print(type(list))
-# print(len(list))
-# list.append(8)
-# print(list)
-# print(list.pop())
-# print(list[9::-5])
-# # print(list[::-1])
-# print(list[0:5:1])
-# print(list[-5::-1])
-# print(list.remove(16))
-# print(list)
-# print(list.index(18))
-# print(list.count(12))
-# print(list.reverse())
+#list
+list=[12,13,14,15,16,17,18,19,20,12]
+print(type(list))
+print(len(list))
+list.append(8)
+print(list)
+print(list.pop())
+print(list[9::-5])
+# print(list[::-1])
+print(list[0:5:1])
+print(list[-5::-1])
+print(list.remove(16))
+print(list)
+print(list.index(18))
+print(list.count(12))
+print(list.reverse())
 
-# list2=["waris",12,1314,14,15,16,17,18]
-# if "waris" in list2:
-#     print("True")
-# else:
-#     pass
-# list3=[i for i in range(10)]    #list comprehension
-# print(list3)
-# list4=[i for i in range(10) if i%2==0]
-# print(list4)
-# print(list4.sort(reverse=True))
-# print(list4)
-# print(list4.sort())
-# print(list4)
-# list5=list3+list4   #list concatination
-# print(list5)
-# list5[0]=111
-# print(list5)
-# print(list5.remove(111))
-# print(list5)
+list2=["waris",12,1314,14,15,16,17,18]
+if "waris" in list2:
+    print("True")
+else:
+    pass
+list3=[i for i in range(10)]    #list comprehension
+print(list3)
+list4=[i for i in range(10) if i%2==0]
+print(list4)
+print(list4.sort(reverse=True))
+print(list4)
+print(list4.sort())
+print(list4)
+list5=list3+list4   #list concatination
+print(list5)
+list5[0]=111
+print(list5)
+print(list5.remove(111))
+print(list5)
 
 
-# #tuple
-# tep=(1,2,3,7,5,6,7,8,9,10,12)
-# print(len(tep))
-# print(type(tep))
-# print(tep.count(3))
-# print(tep.index(3))
-# print(12 in tep)
-# print(13 in tep)
-# tep2=(12,13,14,15,16,17,18)
-# tep3=tep+tep2
-# print(tep3)
-# print(tep[::-1])
-# print(tep[-7::-1])
-# print(tep3)
-# if 13 and 14 and 17 in tep3:
-#     print("These are found:")
-# else:
-#     print("No found")
+#tuple
+tep=(1,2,3,7,5,6,7,8,9,10,12)
+print(len(tep))
+print(type(tep))
+print(tep.count(3))
+print(tep.index(3))
+print(12 in tep)
+print(13 in tep)
+tep2=(12,13,14,15,16,17,18)
+tep3=tep+tep2
+print(tep3)
+print(tep[::-1])
+print(tep[-7::-1])
+print(tep3)
+if 13 and 14 and 17 in tep3:
+    print("These are found:")
+else:
+    print("No found")
 tep=(1,2,3,7,5,6,7,8,9,10,12)
 print(tep)
 temp=list(tep)
@@ -234,4 +234,5 @@ print(temp.index(5))
 print(temp.reverse())
 print(temp)
 tup=tuple(temp)
+print(tup)
 print(tup)
