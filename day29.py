@@ -23,14 +23,10 @@ for index,fruit in enumerate(strng):
 
 
 
-# Question: Create an enumeration named Days with the 
-# days of the week (Monday through Sunday). Then, write a 
-# function called print_day that takes a day parameter of 
-# type Days and prints "It's [day]!" where [day] is the actual day.
-# Finally, call the function with a specific day.
+# Question:Enumerate function for week days
+def day(l):
+    for idx,val in enumerate(days,start=1):
+        print(f"{idx}:{val}")
 
 days=['sunday','monday','tuesday','wednesday','Thurusday','Friday','Saturday']
-
-for index,days in enumerate(days,start=1):
-    print(index, ":" ,days)
-    
+day(days)
