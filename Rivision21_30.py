@@ -171,6 +171,27 @@ print(m.pow(10,5))
 print(m.floor(12))
 print(m.log(5))
 
-from datetime import time 
-result=time.localtime()
-print(result)
+#dictionary
+dict={
+    "name":"python",
+    "fee":21000, 
+    "Duration":"3 months"
+}
+# print(dict.pop("fee"))          #fee will be deleted from the dict.
+dict.update({"section":"4A-Afternoon"})
+dict.update({"fee":30000})      #it will update the value
+dict.clear()        #it will clear the list
+for key,value in dict.items():
+    print(f"{key}: {value}")
+
+
+#nested dictionary:
+dict2={
+    'php':{"duration":"2month","fee":"20000"},
+    'Cpp':{"duration":"3month","fee":"22000"},
+    'python':{"duration":"3month","fee":"23000"},
+    'Dsa':{"duration":"6month","fee":"24000"}
+}
+dict2["python"]["fee"]=60000    #updation
+for key,value in dict2.items():
+    print(f" {key} : {value["duration"],value["fee"]}")
