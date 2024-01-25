@@ -277,5 +277,6 @@ Day 63/70:
 <br>
 Rivision from day 21 to 30.
 <br>
-
+Rivision from day 30 to 35.
+<br>
 
