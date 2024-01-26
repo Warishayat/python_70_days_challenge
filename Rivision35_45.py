@@ -95,29 +95,118 @@
 #         f.write(f"{i}\n")
 # print("sucessfully append the data..")
 
-#seek tell and truncate method in python
-with open ("file.txt","r") as f:
-    result=f.seek(5)
-    print(f.tell()) #it tell us wat is pur position
-    result=f.seek(10)
-    print(result)
-    print(f.tell())
+# #seek tell and truncate method in python
+# with open ("file.txt","r") as f:
+#     result=f.seek(5)
+#     print(f.tell()) #it tell us wat is pur position
+#     result=f.seek(10)
+#     print(result)
+#     print(f.tell())
 
 
-with open ("file.txt",'w') as f:
-    f.write("Hellow world")
-    f.truncate(3)
+# with open ("file.txt",'w') as f:
+#     f.write("Hellow world")
+#     f.truncate(3)
 
-#lamba function
-x=lambda x,y:(x+y)/2
+# #lamba function
+# x=lambda x,y:(x+y)/2
 
-print(x(3,4))
-
-
-#2 sum function with lambfa
-sum=lambda x,y:x+y
-
-print(sum(12,14))
+# print(x(3,4))
 
 
+# #2 sum function with lambfa
+# sum=lambda x,y:x+y
 
+# print(sum(12,14))
+
+
+
+# #map filter reduce
+# l=[1,2,3,4,5,6,7,7]         #print square list
+
+# squarelist=list(map(lambda x:x*x,l))
+# print(squarelist)
+
+# #filter (it gave the result on the base of condition)
+
+# l=[1,2,3,4,5,6,7,7]         #print even list
+
+# squarelist=list(filter(lambda x:x%2==0,l))
+# print(squarelist)
+
+# l=[1,2,3,4,5,6,7,7]         #print odd list
+
+# squarelist=list(filter(lambda x:x%2!=0,l))
+# print(squarelist)
+
+
+# #reduce
+# from functools import reduce
+# l=[12,1,14,14,5,16,6]
+
+# sumlist=reduce(lambda x,y:x+y,l)
+# print(sumlist)
+
+# #average of the list
+# from functools import reduce
+# l=[12,1,14,14,5,16,6]
+
+# Avglist=reduce(lambda x,y:(x+y)/2,l)
+# print(Avglist)
+def greet(fx):
+    def mfx():
+        print("Good morning")
+        fx()
+        print("Bye bye")
+    return mfx
+@greet
+def greet():
+    print("Thanks for using my function:")
+
+greet()
+
+#now for arguments decorator
+def extrafeature(fx):
+    def mfx(*args, **kwargs):
+        print("Hellow welcome to this function")
+        fx(*args,**kwargs)
+        print("Thanks for using this function")
+    return mfx
+
+@extrafeature
+def sum(n,m):
+    sum=n+m
+    print("Sum is:",sum)
+sum(12,13)
+
+
+#sttic method which wil execute in every condition and thet donot need to self keyword
+
+class math:
+    def __init__(self,num1,num2):
+        self.num1=num1
+        self.num2=num2
+    def mutiply(self):
+        print(f"num1 and num2 value is",self.num1*self.num2)
+    @staticmethod
+    def sum(num1,num2):
+        return num1+num2
+waris=math(12,12)
+waris.mutiply()
+print(waris.sum(12,14))
+
+
+#2
+class university:
+    def __init__(self,name):
+        self.name=name
+    def display_info(self):
+        print(f"name is {self.name}")
+
+    @staticmethod
+    def displayclass(clas):
+        print(f"class is {clas}")
+
+waris=university("waris")
+waris.display_info()
+university.displayclass("software-engineering")
