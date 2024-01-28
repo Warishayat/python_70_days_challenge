@@ -192,6 +192,6 @@ dict2={
     'python':{"duration":"3month","fee":"23000"},
     'Dsa':{"duration":"6month","fee":"24000"}
 }
-dict2["python"]["fee"]=60000    #updation
+dict2["python"]["fee"]=60000    #updations
 for key,value in dict2.items():
     print(key,value['fee'])
