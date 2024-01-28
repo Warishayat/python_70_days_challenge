@@ -225,8 +225,9 @@ class disbale(data):
         self.rollnum = rollnum
         self.sec=sec
         self.disablity=disablity
-    def information(self):
+    def information(self):          #method override
         print(f"Name is {self.name} ,rollnum is {self.rollnum} and sec is {self.sec} and disability is {self.disablity} ") 
 
 person1=disbale("shani","1232","A morning","Nil")
 person1.information()
+person2=disbale("waris","1238","A morning","Nil")
