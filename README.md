@@ -278,12 +278,15 @@ Day 64/70:
 Rivision from day 21 to 30.
 <br>
 Day 65/70:
+<br>
 Rivision from day 30 to 35.
 <br>
 Day 66/70:
+<br>
 Rivision from day 35 to 45.
 <br>
 Day 67/70:
+<br>
 Rivision from day 46 to 55.
 <br>
 
