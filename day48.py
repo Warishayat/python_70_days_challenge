@@ -13,5 +13,5 @@ class math:
 # instance and class name or with the class name.<===>
 py=math(12)       
 py.multiplaywithN(4)
-# print(py.exponent(2,3))             #call with instane name
+print(py.exponent(2,3))             #call with instane name
 print(math.exponent(4,3))           #call with class name

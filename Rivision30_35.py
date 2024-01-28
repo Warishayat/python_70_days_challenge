@@ -61,5 +61,6 @@ class student:
         self.depart=depart
         print(f"name is {self.name} and depart is {self.depart}")
 
-waris=student("waris","Software-Engineering")
+waris=student("waris","Software-Engineering")       #object
+
 

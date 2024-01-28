@@ -63,89 +63,89 @@ print(l1)
 print(l1.add(124))             #it will add a value
 print(l1)
 
-# #Error handling
-# try:
-#     num=int(input("Enter the number:"))
-#     if num>0:
-#         print("Number is positive.")
-#     else:
-#         print("Number is negative:")
-# except ValueError:
-#     print("You do make some value error")
+#Error handling
+try:
+    num=int(input("Enter the number:"))
+    if num>0:
+        print("Number is positive.")
+    else:
+        print("Number is negative:")
+except ValueError:
+    print("You do make some value error")
 
 
-# #Question2: tajke list and print the index error:
+#Question2: tajke list and print the index error:
     
-# try:
-#     l=[1,2,3,5,6,7]
-#     idx=int(input("Enter the idx to get the value:"))
-#     result=l[idx]
-#     print(result)
-# except IndexError:
-#     print("You do make someindex error.")
+try:
+    l=[1,2,3,5,6,7]
+    idx=int(input("Enter the idx to get the value:"))
+    result=l[idx]
+    print(result)
+except IndexError:
+    print("You do make someindex error.")
 
-# #Question3: # Create a function that takes a list and an index as input and returns the element at that index.
-# # Handle both IndexError and TypeError gracefully.
-# def findElement(l,idx):
-#     try:
-#         result=l[idx]
-#         return result
-#     except IndexError:
-#         print("You do make some index error.")
+#Question3: # Create a function that takes a list and an index as input and returns the element at that index.
+# Handle both IndexError and TypeError gracefully.
+def findElement(l,idx):
+    try:
+        result=l[idx]
+        return result
+    except IndexError:
+        print("You do make some index error.")
 
-# l=[1,2,3,4,5,6,7,8,9,11,12]
-# try:
-#     idx=int(input("Enter the index to find element from the list:"))
-#     getresult=findElement(l,idx)
-#     print(getresult)
-# except ValueError:
-#     print("invalid literal for int() with base 10: 'waris'")
+l=[1,2,3,4,5,6,7,8,9,11,12]
+try:
+    idx=int(input("Enter the index to find element from the list:"))
+    getresult=findElement(l,idx)
+    print(getresult)
+except ValueError:
+    print("invalid literal for int() with base 10: 'waris'")
 
-# #for else keyword 
+#for else keyword 
     
-# for _ in range(10):
-#     print(_,end=" ")
-# else:
-#     print("Else block after loop executed..")
+for _ in range(10):
+    print(_,end=" ")
+else:
+    print("Else block after loop executed..")
 
-# #Question2: what if else will executed if we use break in loop.
-# for i in range(5):
-#     if i==4:
-#         break       #after that nothing will be executed.
-#     print(i)
-# else:
-#     print("i'll be print or not?")
+#Question2: what if else will executed if we use break in loop.
+for i in range(5):
+    if i==4:
+        break       #after that nothing will be executed.
+    print(i)
+else:
+    print("i'll be print or not?")
 
 
-# #final keyword:
+#final keyword:
 
-# try:
-#     num=int(input("Enter number:"))
-#     print(num)
-# except ValueError:
-#     print("You do make somevalue Error.")
-# finally:
-#     print("i will execute in every condition.")
+try:
+    num=int(input("Enter number:"))
+    print(num)
+except ValueError:
+    print("You do make somevalue Error.")
+finally:
+    print("i will execute in every condition.")
 
-# #Question2: # Write a Python program that reads a text file named "sample.txt" and prints the number of 
-# # lines in the file. If the file is not found, handle the exception and print an appropriate error message.
-# # Feel free to attempt these questions, and if you have any specific doubts or need help with solutions, feel free to ask!
-# try:
-#     with open ("sample.txt","r") as f:
-#         result="sample.txt".readline()
-# except FileNotFoundError:
-#     print("File NOt found")
-# finally:
-#     print("Everything is on track")
+#Question2: # Write a Python program that reads a text file named "sample.txt" and prints the number of 
+# lines in the file. If the file is not found, handle the exception and print an appropriate error message.
+# Feel free to attempt these questions, and if you have any specific doubts or need help with solutions, feel free to ask!
+try:
+    with open ("sample.txt","r") as f:
+        result="sample.txt".readline()
+except FileNotFoundError:
+    print("File NOt found")
+finally:
+    print("Everything is on track")
 
-# #Short hand if else/ternery operator //using shorthand tell num is even or odd
-# num=int(input("Enter the number:"))
-# print("Even Number:",num) if num%2==0 else print("Number Odd:",num)
+#Short hand if else/ternery operator //using shorthand tell num is even or odd
+num=int(input("Enter the number:"))
+print("Even Number:",num) if num%2==0 else print("Number Odd:",num)
     
-# #Question using short hand if else find the maximum number.
-# n=int(input("Enter number 1:"))
-# m=int(input("Enter number 2:"))
-# print("Num 1 is maximum",n) if n>m else print("Num 2 is maximum",m)
+#Question using short hand if else find the maximum number.
+n=int(input("Enter number 1:"))
+m=int(input("Enter number 2:"))
+print("Num 1 is maximum",n) if n>m else print("Num 2 is maximum",m)
 
     
 #Enumerates: (it will print the index of the loop)
@@ -194,4 +194,4 @@ dict2={
 }
 dict2["python"]["fee"]=60000    #updation
 for key,value in dict2.items():
-    print(f" {key} : {value["duration"],value["fee"]}")
+    print(key,value['fee'])

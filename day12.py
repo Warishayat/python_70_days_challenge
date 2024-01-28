@@ -4,7 +4,7 @@
 #  e.g = for i in range( 1(start),10(end),1(move forward by 1)) it will work 1 to 9.
 #FOR loop give the idea of number of iteration.
 
- for _ in range(1,11):
+for _ in range(1,11):
    print("i dont have n variable right now i jus want to print loop.")
 
 

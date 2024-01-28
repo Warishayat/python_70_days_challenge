@@ -34,3 +34,5 @@ b=airticket()
 b.airport="german munich"
 b.airlane_name="Emirates"
 b.info()
+
+#class
