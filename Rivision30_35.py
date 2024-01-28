@@ -25,7 +25,7 @@ print(name)                     #it will print the chnage value of global
 
 # if vs ==
 a=4
-b='4'
+b="4"
 print(a==b)                 #False
 print(a is b)               #False
 
