@@ -289,5 +289,10 @@ Day 67/70:
 <br>
 Rivision from day 46 to 55.
 <br>
+Day 68/70:
+<br>
+Rivision from day 55 to 62. and we almost complete our course today.
+<br>
+our rivision has been complete.
 
 
