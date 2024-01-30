@@ -1,4 +1,4 @@
-#in day56 i will solve the overloading operator we can chage the behaviour of the operator
+#in day56 i will solve the overloading operator we can change the behaviour of the operator
 
 class student:
     def __init__(self,i,j,k):

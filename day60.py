@@ -42,12 +42,13 @@ class ResourceHolder:
         self.resource_name = resource_name
         print(f"ResourceHolder for {self.resource_name} created.")
 
-    # def __del__(self):
-    #     print(f"__del__ method called for {self.resource_name}. Resource released.")
+    def __del__(self):
+        print(f"__del__ method called for {self.resource_name}. Resource released.")
 
 
 
 a=ResourceHolder("defaulted")
 print("ResourceHolder instance has been creatd")
-# del a
+del a
+print("Resource has been deleted thatb hold instance")
 gc.collect()
