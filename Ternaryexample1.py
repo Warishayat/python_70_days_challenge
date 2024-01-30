@@ -37,4 +37,4 @@ print("The diffrence is:",a)
 userinput=input("Enter the string:")
 
 result=True if userinput[::-1]==userinput else False
-print("Is_palindrome:",result)
+print("Is_palindrome:",result )
