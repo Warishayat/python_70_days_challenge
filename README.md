@@ -294,5 +294,11 @@ Day 68/70:
 Rivision from day 55 to 62. and we almost complete our course today.
 <br>
 our rivision has been complete.
+<br>
+Day 69/70:
+<br>
+Upload all the file that was updated and all the practise file that i made during challenges.
+<br>
+
 
 
