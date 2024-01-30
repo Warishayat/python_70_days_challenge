@@ -34,4 +34,4 @@ n2=1
 n3=10
 for i in range(2,n):
     n3=n2+i
-print(n1,n2,n3,end ="")
+print(n1,n2,n3,end =" ")
