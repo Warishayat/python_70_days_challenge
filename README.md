@@ -299,6 +299,10 @@ Day 69/70:
 <br>
 Upload all the file that was updated and all the practise file that i made during challenges.
 <br>
+Day 70/70:
+<br>
+All my topic are finished i have learn so any new thing during my 70 days journey now if i talk about future i would choose mechine learning and deep learning & i will start work on that. I will start from data processing for that purpose i would choose pandas,numpy than tensorflow and matplotlib etc and i would upload all that thing on the github and i will share all my progress on the github and linkedin.
+
 
 
 
